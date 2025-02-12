@@ -1,7 +1,7 @@
 import os
 import sys
 import json
-import pymongo
+import pymongo # type: ignore
 
 from dotenv import load_dotenv
 load_dotenv()
